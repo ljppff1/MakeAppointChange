@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.makeappoint"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/login_top_1"
+        android:label="@string/app_name"
+         android:theme="@style/activityTheme"
+      >
+        <activity
+            android:name="com.example.makeappoint.ReservationActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.calendar_02.ChooseAppointActivity"></activity>
+        <activity 
+            android:name="com.example.makeappoint.LoginActivity"></activity>
+        <activity android:name="com.example.makeappoint.ChoservaActivity"></activity>
+        <activity android:name="com.example.makeappoint.ChoTimeDetailActivity"></activity>
+        <activity android:name="com.example.makeappoint.MyReservaActivity"></activity>
+        <activity android:name="com.example.makeappoint.MyRevActivity"></activity>
+        <activity android:name="com.example.makeappoint.ChoservaDetailActivity"></activity>
+        <activity android:name="com.example.makeappoint.MyRevDetailActivity"></activity>
+        <activity android:name="com.example.makeappoint.ChoservaN3Activity"></activity>
+        
+    </application>
+
+</manifest>

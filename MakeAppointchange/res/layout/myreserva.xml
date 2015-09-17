@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+   android:orientation="vertical">
+
+    
+                                    
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b2"
+        >
+     <RelativeLayout 
+         android:layout_width="50dp"
+         android:id="@+id/mRlre1"
+         android:layout_height="50dp"
+         android:layout_centerVertical="true"
+         >
+         <ImageView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/top_left"
+            android:layout_centerInParent="true"
+             />
+     </RelativeLayout>
+        <TextView 
+            android:text="@string/inputRe1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            />
+</RelativeLayout>
+
+    
+    
+
+  <RelativeLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      >
+        
+      <LinearLayout 
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical"
+          >
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:orientation="vertical"
+             >
+             <RelativeLayout 
+             android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+                 >
+                     <TextView 
+            android:text="@string/aa22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/mTv111"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            />
+             </RelativeLayout>
+             <RelativeLayout 
+             android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+                 >
+                     <TextView 
+            android:text="@string/aa23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            />
+             </RelativeLayout>
+             <RelativeLayout 
+             android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+                 >
+                     <TextView 
+            android:text="@string/aa24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            />
+             </RelativeLayout>
+             <RelativeLayout 
+             android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+                 >
+                     <TextView 
+            android:text="@string/aa25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            />
+             </RelativeLayout>
+             <RelativeLayout 
+             android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+                 >
+                     <TextView 
+            android:text="@string/aa26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="25sp"
+            />
+             </RelativeLayout>
+             </LinearLayout>
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             >
+             <RelativeLayout 
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 >
+              <Button 
+            android:id="@+id/mBtNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/inputRe2"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_next"
+            />
+        
+        </RelativeLayout>
+         </LinearLayout>
+         </LinearLayout>
+      
+       
+    
+    </RelativeLayout>
+</LinearLayout>

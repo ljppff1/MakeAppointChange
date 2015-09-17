@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/login_background"
+    android:layout_height="match_parent"
+   android:orientation="vertical">
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="155dp"
+        
+        >
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/login_top_1"
+        />
+</RelativeLayout>
+
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <View 
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                />
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+              <LinearLayout 
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/et1"
+                  android:layout_margin="1dp"
+                  android:orientation="vertical"
+                  >
+                  <EditText 
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Email Address"
+                      android:paddingLeft="15dp"
+                      android:textColor="@color/black"
+                      android:inputType="textEmailAddress"
+                      android:paddingTop="10dp"
+                      android:paddingBottom="10dp"
+                      android:id="@+id/mEtAddress"
+                      />
+                  <View 
+                      android:layout_width="fill_parent"
+                      android:layout_height="0.3dp"
+                      android:background="@color/gray"
+                      
+                      />
+                  <EditText 
+                                            android:textColor="@color/black"
+                      
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Password"
+                                            android:inputType="textPassword"
+                      
+                                            android:paddingTop="10dp"
+                      android:paddingBottom="10dp"
+                      
+                        android:paddingLeft="15dp"
+                     android:id="@+id/mEtPassword"
+                      />
+                  
+              </LinearLayout>
+                
+                <Button 
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_1"
+                    android:gravity="center"
+                    android:id="@+id/mLogin1"
+                    android:background="@drawable/login_b1"
+                    />
+                <Button 
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_2"
+                    android:gravity="center"
+                                        android:id="@+id/mLogin2"                    
+                    android:background="@drawable/login_b2"
+                    />
+                                <Button 
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_3"
+                    android:gravity="center"
+                                        android:id="@+id/mLogin3"
+                    
+                    android:background="@drawable/login_b3"
+                    />
+                
+                
+                
+            </LinearLayout>
+                        <View 
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                />
+            
+        </LinearLayout>
+        
+    </ScrollView>
+    
+    
+    
+    
+    
+    
+    
+</LinearLayout>
